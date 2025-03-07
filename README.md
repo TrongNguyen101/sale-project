@@ -118,7 +118,32 @@ This file contains assembly-level attributes for the API services project. It is
    dotnet run
    ```
 
+### Entity Framework Commands
+
+1. Add a new migration:
+   ```sh
+   cd back-end/ApiServices
+   dotnet ef migrations add <MigrationName>
+   ```
+
+2. Update the database:
+   ```sh
+   cd back-end/ApiServices
+   dotnet ef database update
+   ```
+
+3. Drop the database:
+   ```sh
+   cd back-end/ApiServices
+   dotnet ef database drop
+   ```
+
+4. Remove the last migration:
+   ```sh
+   cd back-end/ApiServices
+   dotnet ef migrations remove
+   ```
+
 ## License
 
-
-This [README.md](http://_vscodecontentref_/4) file provides a comprehensive overview of the project structure, explains the purpose of each folder and file, and includes instructions for getting started with both the front-end and back-end parts of the project.
+This project is licensed under the MIT License.
