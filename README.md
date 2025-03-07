@@ -146,4 +146,5 @@ This file contains assembly-level attributes for the API services project. It is
 
 ## License
 
-This project is licensed under the MIT License.
+
+This [README.md](http://_vscodecontentref_/4) file provides a comprehensive overview of the project structure, explains the purpose of each folder and file, and includes instructions for getting started with both the front-end and back-end parts of the project.
