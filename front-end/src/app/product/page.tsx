@@ -1,4 +1,4 @@
-import { Box, Button, Typography } from "@mui/material";
+import { Box, Button } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
@@ -12,7 +12,6 @@ function ProductPage() {
         alignItems: "center",
       }}
     >
-      <Typography variant="h2">Header product page</Typography>
       <Box
         sx={{
           display: "flex",
